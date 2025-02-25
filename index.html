@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schedule</title>
+    <style>
+        body {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .Schedule {
+            background-color: #F3FBE9;
+            display: grid;
+            padding-top: 48px;
+            width: 860px;
+        }
+
+        .content {
+            display: flex;
+            align-items: center;
+            width: 100%;
+            height: 73px;
+            gap: 17px;
+        }
+
+        .content:nth-child(odd) {
+            background: #D7EED5;
+        }
+        .content:nth-child(3) {
+            height: 123px;
+        }
+        .content:nth-child(5) {
+            height: 123px;
+        }
+        
+        .item {
+            align-self: self-start;
+            transform: translate(0%, -50%);
+            white-space: nowrap;
+            padding-left: 32px;
+            display: flex;
+            align-items: center;
+            gap: 17px;
+        }
+
+        .time{
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+        p{
+            font-size: 24px;
+            font-family: Tsukushi A Round Gothic;
+            line-height: 1.2;
+            font-weight: bold;
+            color: #504334;
+        }
+        .dot {
+            border-radius: 50%;
+            background-color: #4F7C4D;
+            width: 30px;
+            height: 30px;
+        }
+        .picture{
+            margin-left: 23px;
+            margin-top: 32px;
+        }
+        .img{
+            margin-left: 393px;
+            margin-top: 74px;
+        }
+        .img_1{
+            margin-left: 483px;
+            position: absolute;
+            margin-bottom: 28px;
+        }
+        .picture_1{
+            margin: 0;
+            margin-left: 423px;
+        }
+        .man_picture{
+            margin-left: 683px;
+            position: absolute;
+        }
+        .stw_img{
+            margin-left: 333px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="Schedule">
+        <div class="content">
+            <div class="item">
+                <div class="time">
+                    <p>09:00</p><span class="dot"></span>
+                </div>
+                <p> 出勤</p>
+                <div class="img">
+                    <img src="/Pic/Layer.png" alt="">
+                </div>  
+                <div class="picture">
+                    <img src="/Pic/Layer_1.png" alt="">
+                </div>
+            </div>     
+        </div>
+        <div class="content">
+            <div class="item">
+                <div class="time">
+                    <p>09:30</p><span class="dot"></span>
+                </div>
+            </div>
+            <p>朝礼</p>
+            <div class="img_1">
+                <img src="/Picture/Layer_.png" alt="">
+            </div>  
+            <div class="picture_1">
+                <img src="/" alt="">
+            </div>
+        </div>
+        <div class="content">
+            <div class="item">
+                <div class="time">
+                    <p>10:00</p><span class="dot"></span>
+                </div>
+            </div>
+            <p>活動(いちごや野菜の栽培、販売、制作など)</p>
+        </div>
+        <div class="content">
+            <div class="item">
+                <div class="time">
+                    <p>12:00</p><span class="dot"></span>
+                </div>
+            </div>
+            <p>昼休み・昼食</p>
+        </div>
+        <div class="content">
+            <div class="item">
+                <div class="time">
+                    <p>13:00</p><span class="dot"></span>
+                </div>
+            </div>
+            <p>活動(いちごや野菜の栽培、販売、制作など)</p>
+        </div>
+        <div class="content">
+            <div class="item">
+                <div class="time">
+                    <p>15:00</p><span class="dot"></span>
+                </div>
+            </div>
+            <p>片付け</p>
+            <div class="stw_img">
+                <img src="/Pic/Group.png" alt="">
+            </div>  
+            <div class="man_picture">
+                <img src="/Pic/Group (1).png" alt="">
+            </div>
+        </div>
+        <div class="content">
+            <div class="item">
+                <div class="time">
+                    <p>15:30</p><span class="dot"></span>
+                </div>
+            </div>
+            <p>終礼</p>
+        </div>
+    </div>
+
+</body>
+
+</html>
